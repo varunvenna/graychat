@@ -1,0 +1,190 @@
+:root{
+    --logoFontSize: 22px;
+    --textLogoLeftMargin: 57px;
+    --grayChatGray: #737882;
+}
+@font-face {
+    font-family: sulpherPointBold;
+    src: url(font/Sulphur_Point/SulphurPoint-Bold.ttf);
+}
+@font-face {
+font-family: sulpherPointLight;
+src: url(font/Sulphur_Point/SulphurPoint-Light.ttf);
+}
+#navBar{
+    background-color: white;
+position: relative;
+z-index: 10000;
+}
+#navBarLogo{
+    width: 25px;
+    height: auto;
+    margin-left:20px;
+    margin-top: 15px;
+}
+#grayLogo{
+    margin-top: -48px;
+    margin-left: var(--textLogoLeftMargin);
+    font-size: var(--logoFontSize);
+    font-family: sulpherPointBold;
+}
+#chatLogo{
+    margin-top: -35px;
+    margin-left: var(--textLogoLeftMargin);
+    font-size: var(--logoFontSize);
+    font-family: sulpherPointBold;
+    color: var(--grayChatGray);
+}
+#navBarList{
+    margin-top: -60px;
+    padding-bottom: 50px;
+    box-shadow: 0px 15px 20px 0px #88888857;
+}
+#navBarList li{
+    margin-right: 30px;
+    display:inline;
+    float: right;
+    font-size: 18px;
+    font-family: sulpherPointLight;
+}
+#navBarList li a{
+    text-decoration: none;
+}
+#home{
+    margin-top: -20px;
+    background-color: #EEF7FF;
+    padding-bottom: 150px;
+    z-index: 1000;
+    box-shadow: 0px 15px 20px 0px #88888857;
+}
+.textLogoHome{
+    width: max-content;
+    position: relative;
+    font-size: 60px;
+    margin-left: 185px;
+    margin-top: -125px;
+    font-family: sulpherPointBold;
+}
+.textLogoHome #gray{
+    
+    display: inline; 
+}
+.textLogoHome #chat{
+    margin-left: -25px;
+    color: var(--grayChatGray);
+    display: inline; 
+}
+.textLogoHome #tagline {
+    margin-top: -10px;
+    margin-left: 20px;
+    position: relative;
+    font-size: 20px;
+}
+#home img{
+    margin-top: 100px;
+    margin-left: 250px;
+    width: 10%;
+    opacity: 15%;
+
+}
+#featuresList{
+    margin-top: -180px;
+    float: right;
+}
+#featuresList li{
+    margin-bottom: 10px;
+    margin-right: 170px;
+    font-size: 18px;
+    font-family: sulpherPointLight;
+}
+#featuresList li a{
+    text-decoration: none;
+}
+/* change name */
+#blockchain {
+    margin-top: -30px;
+    position: relative;
+    background-color: #F2FFEE;
+    padding-bottom: 100px;
+    font-family: sulpherPointBold;
+    z-index: -1;
+    box-shadow: 0px 15px 20px 0px #88888857;
+}
+#blockchain h1{
+    position: relative;
+    padding-top: 100px;
+    margin-left: 100px;
+    width: 400px;
+}
+#blockchain p{
+    position: relative;
+    margin-left: 100px;
+    width: 400px;
+    font-family: sulpherPointLight;
+}
+#blockchain img{
+    position: relative;
+    float: right;
+    padding-top: 100px;
+    margin-right: 200px;
+    width: 200px;
+}
+/* change name */
+#blockchain1{
+    position: relative;
+    background-color: #FFFFee;
+    padding-bottom: 400px;
+    font-family: sulpherPointBold;
+    z-index: -2;
+    box-shadow: 0px 15px 20px 0px #88888857;
+}
+#blockchain1 h1{
+    float: right;
+    position: relative;
+    padding-top: 50px;
+    margin-right: 100px;
+    width: 400px;
+}
+#blockchain1 p{
+    float: right;
+    position: relative;
+    margin-right: 100px;
+    width: 400px;
+    font-family: sulpherPointLight;
+}
+#blockchain1 img{
+    position: relative;
+    float: left;
+    padding-top: 100px;
+    margin-left: 200px;
+    width: 200px;
+}
+/* change name */
+#blockchain2 {
+    margin-top: -30px;
+    position: relative;
+    background-color: #FFEEEE;
+    padding-bottom: 100px;
+    font-family: sulpherPointBold;
+    z-index: -3;
+    box-shadow: 0px 15px 20px 0px #88888857;
+}
+#blockchain2 h1{
+    position: relative;
+    padding-top: 100px;
+    margin-left: 100px;
+    width: 400px;
+}
+#blockchain2 p{
+    position: relative;
+    margin-left: 100px;
+    width: 400px;
+    font-family: sulpherPointLight;
+}
+#blockchain2 img{
+    position: relative;
+    float: right;
+    padding-top: 100px;
+    margin-right: 200px;
+    width: 200px;
+}
